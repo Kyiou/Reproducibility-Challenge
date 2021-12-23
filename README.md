@@ -5,10 +5,9 @@ This repository is reproducibility of [Contrastive Learning of Musical Represent
 ## Quickstart
 ````
 git clone https://github.com/olucas20/Reproducibility-Challenge.git && cd Reproducibility-Challenge
+````
+## Runing the framework
 
-#For download the magnatagatune dataset 
-
-python3 preprocess.py --dataset magnatagatune
-```
-
-##
+````
+python3 Main.py --root ./directory_containing_audio_files
+````
